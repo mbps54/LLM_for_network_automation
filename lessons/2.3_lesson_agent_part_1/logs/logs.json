@@ -1,0 +1,65 @@
+[
+  {
+    "event_type": "SPANTREE-2-BLOCK_BPDUGUARD",
+    "count": 60,
+    "items": [
+      {
+        "ip": "10.1.122.23",
+        "count": 10,
+        "message": "Received BPDU on port GigabitEthernet1/0/4 with BPDU Guard enabled. Disabling port."
+      },
+      {
+        "ip": "10.1.122.22",
+        "count": 10,
+        "message": "Received BPDU on port GigabitEthernet1/0/4 with BPDU Guard enabled. Disabling port."
+      },
+      {
+        "ip": "10.1.122.20",
+        "count": 10,
+        "message": "Received BPDU on port GigabitEthernet1/0/32 with BPDU Guard enabled. Disabling port."
+      },
+      {
+        "ip": "10.1.122.1",
+        "count": 10,
+        "message": "Received BPDU on port GigabitEthernet1/0/12 with BPDU Guard enabled. Disabling port."
+      },
+      {
+        "ip": "10.44.76.126",
+        "count": 20,
+        "message": "Received BPDU on port GigabitEthernet1/0/2 with BPDU Guard enabled. Disabling port."
+      }
+    ]
+  },
+  {
+    "event_type": "IDMGR-3-INVALID_ID",
+    "count": 2000,
+    "items": [
+      {
+        "ip": "10.44.76.80",
+        "count": 1000,
+        "message": "bad id in id_get (Out of IDs!) (id: 0x0)"
+      },
+      {
+        "ip": "10.44.76.45",
+        "count": 1000,
+        "message": "bad id in id_get (Out of IDs!) (id: 0x0)"
+      }
+    ]
+  },
+  {
+    "event_type": "SFF8472-5-THRESHOLD_VIOLATION",
+    "count": 144,
+    "items": [
+      {
+        "ip": "10.155.2.11",
+        "count": 132,
+        "message": "Te1/10: Rx power high warning; Operating value:   0.1 dBm, Threshold value:  -1.0 dBm."
+      },
+      {
+        "ip": "10.155.2.12",
+        "count": 12,
+        "message": "Te1/11: Rx power high warning; Operating value:   0.3 dBm, Threshold value:  -1.0 dBm."
+      }
+    ]
+  }
+]

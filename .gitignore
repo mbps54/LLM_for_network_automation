@@ -1,0 +1,10 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS system file
+.DS_Store
+
+history.log
+
